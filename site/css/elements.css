@@ -1,3 +1,5 @@
+/* buttons */
+
 .btn-btn {
 	display: block;
 	background-color: #fcff42;
@@ -10,4 +12,15 @@
 
 .btn-btn:hover {
 	background-color: blue;
+}
+
+
+/* images */
+
+.img-hero {
+	display: block;
+	width: 80%;
+	height: auto;
+	border-radius: 5px;
+	margin-top: 20px;
 }
