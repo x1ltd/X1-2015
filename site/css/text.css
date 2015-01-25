@@ -1,31 +1,83 @@
 /* Home page */
 
 .para-menu {
-
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 1.4;
 }
 
 .para-indexBanner {
-
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 500;
+	font-size: 45px;
+	font-style: italic;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 1.4;
 }
 
 .para-headlineA {
-
+	font-family: 'Arapey', serif;
+	font-weight: 400;
+	font-size: 40px;
+	text-align: center;
+	color: #fcff42;
+	line-height: 1.4;
+	
+	margin-top: 50px;
+	margin-bottom: 35px;
 }
 
-.para-primaryLink {
+.para-subA {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 1.4;
+}
 
+
+.para-primaryLink {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #3a91fa;
+	line-height: 1.4;
 }
 
 .para-pullquoteA {
-
+	font-family: 'Arapey', serif;
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 1.4;
 }
 
 .para-pullquoteB {
-
+	font-family: 'Exo 2', sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 36px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 1.4;
 }
 
 .para-creditB {
-
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 1.4;
+	
+	margin-top: 19px;
 }
 
 
@@ -33,13 +85,43 @@
 /*	Content */
 
 .para-introA {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 36px;
+	text-align: left;
+	color: #2f2b57;
+	line-height: 1.4;
+	margin-top: 20px;
 
 }
 
 .para-subheadA {
-
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 36px;
+	text-align: left;
+	color: #b7162c;
+	line-height: 1.4;
+	margin-top: 20px;
 }
 
 .para-bodyA {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	text-align: left;
+	color: #626262;
+	line-height: 1.4;
+	margin-top: 20px;
+}
 
+
+
+/* Things */
+
+.divider {
+	display: inline-block;
+	padding: 0 10px;
 }
