@@ -20,7 +20,7 @@
 .para-indexBanner {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 500;
-	font-size: 45px;
+	font-size: 35px;
 	font-style: italic;
 	text-align: center;
 	color: #FFFFFF;
@@ -46,6 +46,7 @@
 	text-align: center;
 	color: #FFFFFF;
 	line-height: 1.4;
+	margin-bottom: 40px
 }
 
 
