@@ -13,7 +13,7 @@
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
-	color: #626262;
+	color: #bfbfbf;
 	line-height: 1.4;
 }
 
@@ -125,6 +125,29 @@
 	margin-top: 20px;
 }
 
+
+
+.para-contactNameA {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 20px;
+	text-align: left;
+	color: #1f3c6c;
+	line-height: 1.4;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.para-contactBodyA {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	text-align: left;
+	color: #626262;
+	line-height: 1.6;
+	margin-top: 5px;
 
 
 /* Things */
