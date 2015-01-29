@@ -20,7 +20,7 @@
 .para-indexBanner {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 500;
-	font-size: 35px;
+	font-size: 40px;
 	font-style: italic;
 	text-align: center;
 	color: #FFFFFF;
@@ -114,6 +114,18 @@
 	margin-top: 20px;
 }
 
+.para-subheadB {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	text-align: left;
+	color: #2f2b57;
+	line-height: 1.4;
+	margin-top: 20px;
+	margin-bottom: -13px
+}
+
+
 .para-bodyA {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -148,7 +160,18 @@
 	color: #626262;
 	line-height: 1.6;
 	margin-top: 5px;
+}
 
+.para-contactBodyB {
+	font-family: 'Arapey', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 18px;
+	text-align: left;
+	color: #626262;
+	line-height: 1.6;
+	margin-top: 5px;
+}
 
 /* Things */
 
