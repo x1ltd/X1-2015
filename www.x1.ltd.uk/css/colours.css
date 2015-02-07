@@ -1,0 +1,60 @@
+/*	Generic	*/
+
+.clr-white {
+	color: #FFFFFF;
+	color: rgb( 255, 255, 255 );
+}
+
+
+
+
+
+/*	Home Page	*/
+
+.clr-skyblue {
+	color: #3a91fa;
+	color: rgb( 58, 145, 250 );
+}
+
+.clr-skyblueHighlight {
+	color: #1d49c8;
+	color: rgb( 29, 73, 200 );
+}
+
+
+
+.clr-yellowgreen {
+	color: #fcff42;
+	color: rgb( 252, 255, 66 );
+}
+
+
+
+
+
+/*	Articles	*/
+
+/* page header */
+.clr-darkblue {
+	color: #2f2b57;
+	color: rgb( 47, 43, 87 );
+}
+
+/* page strapline */
+/* link hover */
+.clr-darkred {
+	color: #b7162c;
+	color: rgb( 183, 22, 44 );
+}
+
+/* body text */
+.clr-darkgray {
+	color: #626262;
+	color: rgb( 98, 98, 98 );
+}
+
+/* body text */
+.clr-gray {
+	color: #bfbfbf;
+	color: rgb( 191, 191, 191 );
+}
