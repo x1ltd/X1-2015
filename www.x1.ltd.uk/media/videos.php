@@ -17,9 +17,6 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-<div class="para-menu2">
-    	<a href="../index.php" >&lt; home</a>
-    </div>
 
     	<img class="img-hero" src="../images/174731_3419.jpg" width="800" height="600" role="presentation" >
     	<p class="para-subheadA">Videos</p>

@@ -17,10 +17,6 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-<div class="para-menu2">
-    	<a href="../index.php" >&lt; home</a>
-    </div>
-
     	<img class="img-hero" src="../images/1084274_44287873.jpg" width="1000" height="789" role="presentation" >
     	<p class="para-subheadA">Direct Mail</p>
         <p class="para-bodyA">There are many reasons why over 4 billion pieces of direct mail are delivered in the UK each year.

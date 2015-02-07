@@ -17,9 +17,7 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-<div class="para-menu2">
-    	<a href="../index.php" >&lt; home</a>
-    </div>
+
 
     	<img class="img-hero" src="../images/1160560_58688732.jpg" width="1000" height="750" role="presentation" >
         

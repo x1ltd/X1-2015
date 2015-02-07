@@ -17,9 +17,7 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-	<div class="para-menu2">
-    	<a href="/" >&lt; home</a>
-    </div>
+	
 
     	<img class="img-hero" src="../images/app-store-device-macbook-air-1171.jpg" width="1000" height="729" role="presentation" >
         

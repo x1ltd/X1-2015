@@ -18,9 +18,7 @@
     <!--	END - STICKY HEADER	-->
 
 
-<div class="para-menu2">
-    	<a href="../index.php" >&lt; home</a>
-    </div>
+
 
     	<img class="img-hero" src="../images/1213666_10835722.jpg" width="1000" height="750" role="presentation" >
         

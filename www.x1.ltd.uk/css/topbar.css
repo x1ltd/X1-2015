@@ -36,8 +36,7 @@
 	margin: 3px;
 	opacity: .8;
 	
-	transition: max-height .2s;
-	transition: padding .2s, max-height .2s, background-position .2s;
+	transition: background-position .2s;
 	
 	background: 50% 0% no-repeat url('../images/burger-menu.svg');
 	background-size: 44px 88px;
@@ -50,56 +49,100 @@
 }
 
 .menudropdown {
-	max-height: 0;
-	background: white;
 	position: absolute;
 	top: 47px;
 	left: 0;
+
+	width: 100%;
+	max-height: 0;
+
+	background: white;
+	overflow: hidden;
+
 	border-radius: 2px;
 	box-shadow: 0 3px 5px rgb( 29, 73, 200 );
-	overflow: hidden;
 	
 	pointer-events:auto;
 	
 	transition: max-height .2s;
 	transition: padding .2s, max-height .2s;
 }
-
-.menuoptions {
-	
+.menudropdown:before,
+.menudropdown:after {
+	content: ' ';
+	display: table;
+	clear: both;
 }
-.home .menuoptions {
+.home .menudropdown {
 	box-shadow: 0 3px 5px rgb( 29, 73, 200 );
-	
+
 }
-.article .menuoptions {
+.article .menudropdown {
 	box-shadow: 0 3px 5px rgba( 0, 0, 0, .3 );
-	
+
 }
 .menudropdown--open {
 	padding: 10px 0;
-	max-height: 250px;
-	
+	max-height: 600px;
+
+}
+
+.menuoptions {
+	float: left;
+	width: 45%;
+
+}
+.menuoptions .menuoption {
+	text-align: right;
+
 }
 
 .menuoption {
 	display: block;
-	text-align: left;
 	
 	padding: 5px 20px;
 	
 	transition: background-image .2s;
-	
+
 }
 .article .menuoption {
 	color: #b7162c;
 	
 }
-.menuoption:hover {
+.home .menusuboptions .menuoption:hover,
+.home .menuoption--open {
 	background-image: linear-gradient( to left, rgba(58,145,250, .2), rgba(58,145,250, .05) );
 	
 }
-.article .menuoption:hover {
+.article .menusuboptions .menuoption:hover,
+.article .menuoption--open {
 	background-image: linear-gradient( to left, rgba(183, 22, 44, .2), rgba(183, 22, 44, .05) );
 	
+}
+.menusuboptions .menuoption {
+	line-height: 1.1;
+}
+.menusuboptions .menuoption {
+	color: #919191;
+	font-size: 16px;
+}
+
+
+.menusuboptions {
+	float: right;
+	width: 55%;
+	font-style: italic;
+}
+.menusuboptions .menuoption {
+	text-align: left
+	
+}
+
+
+
+.menusuboptionset {
+	display: none;
+}
+.menusuboptionset--open {
+	display: block;
 }

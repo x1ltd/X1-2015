@@ -17,9 +17,7 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-<div class="para-menu2">
-    	<a href="../index.php" >&lt; home</a>
-    </div>
+
 
   <p class="para-subheadA">X1 Contacts</p>
   

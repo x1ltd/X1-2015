@@ -37,15 +37,15 @@
 	<!-- Logo - Delivering...	-->
     <img src="images/x1-logo.svg" class="img-x1Logo" alt="X1" id="x1-logo">
     
-    <h2 class="para-indexBanner" style="margin-top:60px; width: 80%; margin-left: auto;  margin-right: auto;""> Delivering Optimum Return on your Marketing and Print Investment </h2>
+    <h2 class="para-indexBanner" style="margin-top:60px; width: 80%; margin-left: auto;  margin-right: auto;"> Delivering Optimum Return on your Marketing and Print Investment </h2>
     
     <!-- typographic dingbat a 	-->
     
-    <img src="images/dingbat-a.svg" class="img-dingbat-a" alt="dingbat-a"  style="padding-top: 5px;">
+    <img src="images/dingbat-a.svg" class="img-dingbat-a" alt="dingbat-a" style="padding-top: 5px;">
     
     <h3 class='para-pullquoteA' style="margin-top:60px; margin-bottom:20px; width: 80%; margin-left: auto;  margin-right: auto;"> X1 seamlessly harnesses marketing knowledge, creativity and technology</h3>
     
-        <!-- typographic dingbat a 	-->
+    <!-- typographic dingbat a 	-->
     
     <img src="images/dingbat-a.svg" class="img-dingbat-a" alt="dingbat-a" >
 
@@ -82,21 +82,21 @@
     
     <!-- Print links	-->
     <h3 class='para-headlineA' id="services-section"> X1 Services</h3>
-    <a href="print/design.php" class='para-primaryLink btn-btn'> Design & Branding</a> 
-    <a href="print/printing.php" class='para-primaryLink btn-btn'> Printing</a> 
-    <a href="print/physical.php" class='para-primaryLink btn-btn'> Physical Asset Management</a> 
-    <a href="print/web.php" class='para-primaryLink btn-btn'> Web-2-Production</a>
-     <a href="print/direct.php" class='para-primaryLink btn-btn'> Direct Mail</a> 
+    <a href="/services/design.php" class='para-primaryLink btn-btn'> Design & Branding</a> 
+    <a href="/services/printing.php" class='para-primaryLink btn-btn'> Printing</a> 
+    <a href="/services/physical.php" class='para-primaryLink btn-btn'> Physical Asset Management</a> 
+    <a href="/services/web.php" class='para-primaryLink btn-btn'> Web-2-Production</a>
+    <a href="/services/direct.php" class='para-primaryLink btn-btn'> Direct Mail</a> 
     
     <!-- Info links	-->
     <h3 class='para-headlineA' id="info-section"> X1 Info</h3>
-    <a href="info/info.php" class='para-primaryLink btn-btn'>Contacts</a>
+    <a href="/info/contacts.php" class='para-primaryLink btn-btn'>Contacts</a>
     
     <!-- Media links	-->
     <h3 class='para-headlineA' id="media-section">Media</h3>
-    <a href="media/articles.php" class='para-primaryLink btn-btn'> Articles</a> 
-    <a href="media/videos.php" class='para-primaryLink btn-btn'> Videos</a>
-     <a href="media/marketing.php" class='para-primaryLink btn-btn'> Marketing Links</a>
+    <a href="/media/articles.php" class='para-primaryLink btn-btn'> Articles</a> 
+    <a href="/media/videos.php" class='para-primaryLink btn-btn'> Videos</a>
+    <a href="/media/marketing.php" class='para-primaryLink btn-btn'> Marketing Links</a>
     
     <!-- Back to the top	-->
     <div class="para-menu" style="margin-top:50px;">

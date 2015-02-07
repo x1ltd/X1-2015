@@ -17,9 +17,7 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-<div class="para-menu2">
-    	<a href="../index.php" >&lt; home</a>
-    </div>
+
 
     	<img class="img-hero" src="../images/apple-browser-computer-3080.jpg" width="1000" height="743" role="presentation" >
     	<p class="para-subheadA">Web-2-Production</p>

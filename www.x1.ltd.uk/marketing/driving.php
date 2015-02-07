@@ -19,9 +19,7 @@
 
 
 
-<div class="para-menu2">
-    	<a href="../index.php" >&lt; home</a>
-    </div>
+
 
     	<img class="img-hero" src="../images/cars-city-contours-1828.jpg" width="3196" height="2080" role="presentation" >
         

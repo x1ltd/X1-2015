@@ -17,9 +17,7 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-    <div class="para-menu2">
-        <a href="../index.php" >&lt; home</a>
-    </div>
+
     
     <img class="img-hero" src="../images/buy-cash-coins-2116.jpg" width="1000" height="731" role="presentation" >
     
