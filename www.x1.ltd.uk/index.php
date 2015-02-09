@@ -4,7 +4,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>X1 2015</title>
+<title>X1 - Delivering Optimum Return on your Marketing and Print Investment</title>
 
 <?php include("css/styles.php"); ?>
 
@@ -27,17 +27,12 @@
     
     <!--	CONTENT	-->
     
-	<!-- Top page links	-->
-    <div class="para-menu" id="top-menu">
-    	<a href="#marketing-section" >Here&nbsp;for&nbsp;marketing?</a>
-        <span class="divider"> | </span>
-        <a href="#print-section">Here&nbsp;for&nbsp;another&nbsp;X1&nbsp;service?</a>
-    </div>
+  
     
 	<!-- Logo - Delivering...	-->
     <img src="images/x1-logo.svg" class="img-x1Logo" alt="X1" id="x1-logo">
     
-    <h2 class="para-indexBanner" style="margin-top:60px; width: 80%; margin-left: auto;  margin-right: auto;"> Delivering Optimum Return on your Marketing and Print Investment </h2>
+    <h2 class="para-indexBanner" style=" width: 80%; margin-left: auto;  margin-right: auto;"> Delivering Optimum Return on your Marketing and Print Investment </h2>
     
     <!-- typographic dingbat a 	-->
     
@@ -70,7 +65,7 @@
     <!--	FOOTER LINKS	-->
     
     <!-- Marketing links	-->
-    <h3 class='para-headlineA' style="margin-top:100px; " id="marketing-section"> X1 Marketing</h3>
+    <h3 class='para-headlineA' style="margin-top:50px; " id="marketing-section"> X1 Marketing</h3>
     <p class='para-subA' style="margin-top:20px; width: 70%; margin-left: auto;  margin-right: auto;"> We provide fresh ideas while following a successful, proven marketing methodology to help you increase your chances of more and better sales.</p>
     <a href="marketing/driving.php" class='para-primaryLink btn-btn'> Driving the right marketing strategy</a> <a href="marketing/invest.php" class='para-primaryLink btn-btn'> Investing your marketing money wisely</a>
     <a href="marketing/directanddigital.php" class='para-primaryLink btn-btn'> Direct & digital marketing media allocation</a>
