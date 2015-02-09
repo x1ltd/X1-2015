@@ -23,7 +23,7 @@
 <p class="para-bodyA">It is faster to produce. You can prepare and mail a small promotion within weeks rather than months. This makes it perfect for testing the latest prices, offers and audiences.</p>
 <p class="para-bodyA">Response is faster. You can see the results of a mailing more quickly and accurately than you can with most other advertising.</p>
 
-<p class="para-bodyQ">“69% open all the mail they receive vs 22% open all the emails – 47% say they receive too much mail vs 70% say they receive too many emails”</p>
+<p class="para-bodyQ">“69% open all the mail they receive vs 22% open all the emails – 47% say they receive too much mail vs 70% who say they receive too many emails”</p>
 <p class="para-bodyC">Source: Quadrangle, Mail &amp; Digital, Part 1, 2013</p>
 
 <p class="para-bodyA">It is cost-effective. Using digital printing, X1 can mail to lists as small as 200.</p>
@@ -32,7 +32,7 @@
 <p class="para-bodyA">Direct mail is more personal. Not only can letters be personalised via mail-merging techniques, but you can use more informal language in writing your letter and can direct your letter to the specific interest of the reader.
 <p class="para-bodyA">It can build a list of loyal customers. Direct mail allows you to build and maintain an in-house list of ‘premium prospects’.</p>
 
-<p class="para-bodyQ">“1 in 3 not only look forward to the mail arriving but are disappointed if they don't receive anything – 70% enjoy receiving vouches, coupons  and discounts through the post.”</p>
+<p class="para-bodyQ">“1 in 3 not only look forward to the mail arriving but are disappointed if they don’t receive anything – 70% enjoy receiving vouchers, coupons  and discounts through the post.”</p>
 <p class="para-bodyC">Source: DMA from the letter box to the inbox, building customers relationships, 2013</p>
 
 <p class="para-bodyA">A postal database provides demographic information about a target audience. Marketers can then profile the different individuals in that target audience to be able to engage them in a more relevant way.
