@@ -36,13 +36,13 @@
     
     <!-- typographic dingbat a 	-->
     
-    <img src="images/dingbat-a.svg" class="img-dingbat-a" alt="dingbat-a" style="padding-top: 5px;">
+    <img src="images/Based in Slough.svg" class="img-dingbat-a" alt="dingbat-a" style="padding-top: 5px;">
     
     <h3 class='para-pullquoteA' style="margin-top:60px; margin-bottom:20px; width: 80%; margin-left: auto;  margin-right: auto;"> X1 seamlessly harnesses marketing knowledge, creativity and technology</h3>
     
     <!-- typographic dingbat a 	-->
     
-    <img src="images/dingbat-a.svg" class="img-dingbat-a" alt="dingbat-a" >
+    <img src="images/Based in Slough.svg" class="img-dingbat-a" alt="dingbat-a" >
 
     
 	<!-- Quotes	-->
@@ -53,7 +53,7 @@
     
         <blockquote style="margin-top:100px">
 
-        <img src="images/dingbat-a.svg" class="img-dingbat-a" alt="dingbat-a" >
+        <img src="images/Based in Slough.svg" class="img-dingbat-a" alt="dingbat-a" >
 
     
     <!--	END - CONTENT	-->
@@ -88,16 +88,16 @@
     <a href="/info/contacts.php" class='para-primaryLink btn-btn'>Contacts</a>
     
     <!-- Media links	-->
+    
     <h3 class='para-headlineA' id="media-section">Media</h3>
     <a href="/media/articles.php" class='para-primaryLink btn-btn'> Articles</a> 
     <a href="/media/videos.php" class='para-primaryLink btn-btn'> Videos</a>
     <a href="/media/marketing.php" class='para-primaryLink btn-btn'> Marketing Links</a>
     
-    <!-- Back to the top	-->
-    <div class="para-menu" style="margin-top:50px;">
-    	<a href="#top-menu" >Back to the top</a>
-    </div>
+            <blockquote style="margin-bottom:100px">
+
     
+
 	<!--	END - FOOTER LINKS	-->
     
   </div>
