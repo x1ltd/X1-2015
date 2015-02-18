@@ -23,8 +23,8 @@
         
         <p class="para-introA">If you don’t make it easy for your customers to buy, you are promoting your competition.</p>
         <p class="para-subheadA">Making it easy for your target to buy</p>
-        <p class="para-bodyA">After a successful engagement, we can help you make it easier for your target to buy from you, rather than going somewhere else. We’ll pay special attention to your online presence, where your competitors are only one click away.  </p>       
-  <p class="para-bodyA">Besides incentives to help your target purchase from you, we’ll make sure your buying process is clear, easy, quick and frustration-free.</p>
+        <p class="para-bodyA">After a successful engagement, we can help you make it easier for your customer to buy from you, rather than going somewhere else. We’ll pay special attention to your online presence, where your competitors are only one click away.  </p>       
+  <p class="para-bodyA">Besides incentives to help your customer purchase from you, we’ll make sure your buying process is clear, quick and frustration-free.</p>
   <p class="para-bodyA"> There is a wide choice of technologies that can help you make it easier for customers to buy, including</p>  
   <p class="para-bodyA">   – QR codes  <br>
     – IAM (Interactive Advertising Mailing)<br>
