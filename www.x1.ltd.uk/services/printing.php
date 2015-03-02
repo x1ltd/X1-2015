@@ -17,7 +17,7 @@
     <?php include("../templates/topnav.php"); ?>
     <!--	END - STICKY HEADER	-->
 
-    	<img class="img-hero" src="../images/x1 nexpress 21-06-14-edit small.jpg" width="1000" height="662" role="presentation" >
+    	<img class="img-hero" src="../images/x1-nexpress-21-06-14-edit-small.jpg" width="1000" height="662" role="presentation" >
         
         
         <p class="para-subheadA">Printing</p>

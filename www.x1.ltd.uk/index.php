@@ -36,13 +36,13 @@
     
     <!-- typographic dingbat a 	-->
     
-    <img src="images/Based in Slough.svg" class="img-dingbat-a" alt="dingbat-a" style="padding-top: 5px;">
+    <img src="images/dingbat-a.svg" class="img-dingbat-a" role="presentation" style="padding-top: 5px;">
     
     <h3 class='para-pullquoteA' style="margin-top:60px; margin-bottom:20px; width: 80%; margin-left: auto;  margin-right: auto;"> X1 seamlessly harnesses marketing knowledge, creativity and technology</h3>
     
     <!-- typographic dingbat a 	-->
     
-    <img src="images/Based in Slough.svg" class="img-dingbat-a" alt="dingbat-a" >
+    <img src="images/dingbat-a.svg" class="img-dingbat-a" role="presentation" >
 
     
 	<!-- Quotes	-->
@@ -53,7 +53,7 @@
     
         <blockquote style="margin-top:100px">
 
-        <img src="images/Based in Slough.svg" class="img-dingbat-a" alt="dingbat-a" >
+        <img src="images/dingbat-a.svg" class="img-dingbat-a" role="presentation" >
 
     
     <!--	END - CONTENT	-->
@@ -93,6 +93,16 @@
     <a href="/media/articles.php" class='para-primaryLink btn-btn'> Articles</a> 
     <a href="/media/videos.php" class='para-primaryLink btn-btn'> Videos</a>
     <a href="/media/marketing.php" class='para-primaryLink btn-btn'> Marketing Links</a>
+    
+    <h3 class='para-headlineA' id="month-section">X1 <span class="kern-Pi">P</span>icks</h3>
+    <a href="/month/pdf-month.php" class='para-primaryLink btn-btn'>PDF of the Month</a> 
+    <a href="/month/video-month.php" class='para-primaryLink btn-btn'> Video of the Month</a>
+    <a href="/month/quote-month.php" class='para-primaryLink btn-btn'>Quote of the Month</a>
+    
+            <blockquote style="margin-top:50px">
+
+        <img src="images/dingbat-a.svg" class="img-dingbat-a" role="presentation" >
+
     
             <blockquote style="margin-bottom:100px">
 

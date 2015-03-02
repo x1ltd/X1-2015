@@ -8,6 +8,7 @@
 			<a href="/#services-section" class="menuoption para-primaryLink">Services</a>
 			<a href="/#info-section" class="menuoption para-primaryLink">Info</a>
 			<a href="/#media-section" class="menuoption para-primaryLink">Media</a>
+            <a href="/#month-section" class="menuoption para-primaryLink">X1 Picks</a>
 			<a href="/#x1-logo" class="menuoption para-primaryLink">Home</a>
 		</nav>
 		<div class="menusuboptions" >
@@ -36,6 +37,12 @@
 				<a href="/media/videos.php" class="menuoption para-primaryLink">Videos</a>
 				<a href="/media/marketing.php" class="menuoption para-primaryLink">Marketing Links</a>
 			</nav>
+            <nav class="menusuboptionset menusuboptionset-month">
+				<a href="/month/pdf-month.php" class="menuoption para-primaryLink">PDF of the Month</a>
+				<a href="/month/video-month.php" class="menuoption para-primaryLink">Video of the Month</a>
+				<a href="/month/quote-month.php" class="menuoption para-primaryLink">Quote of the Month</a>
+			</nav>
+
 		</div>
 	  </div>
   </div>
