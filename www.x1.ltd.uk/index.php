@@ -76,12 +76,13 @@
     <a href="marketing/web.php" class='para-primaryLink btn-btn'> Web-2-Promotion to accelerate your sales</a> 
     
     <!-- Print links	-->
-    <h3 class='para-headlineA' id="services-section"> X1 Services</h3>
-    <a href="/services/design.php" class='para-primaryLink btn-btn'> Design & Branding</a> 
-    <a href="/services/printing.php" class='para-primaryLink btn-btn'> Printing</a> 
-    <a href="/services/physical.php" class='para-primaryLink btn-btn'> Physical Asset Management</a> 
+    <h3 class='para-headlineA' id="services-section">X1 Services</h3>
+    <a href="/services/design.php" class='para-primaryLink btn-btn'>Design & Branding</a> 
+    <a href="/services/printing.php" class='para-primaryLink btn-btn'>Printing</a> 
+    <a href="/services/physical.php" class='para-primaryLink btn-btn'>Physical Asset Management</a> 
     <a href="/services/web.php" class='para-primaryLink btn-btn'> Web-2-Production</a>
-    <a href="/services/direct.php" class='para-primaryLink btn-btn'> Direct Mail</a> 
+    <a href="/services/direct.php" class='para-primaryLink btn-btn'>Direct Mail</a> 
+    <a href="/services/x1-design-library.php" class='para-primaryLink btn-btn'>X1 Design Library</a>
     
     <!-- Info links	-->
     <h3 class='para-headlineA' id="info-section"> X1 Info</h3>

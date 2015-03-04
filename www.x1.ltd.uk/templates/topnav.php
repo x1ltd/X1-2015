@@ -28,6 +28,7 @@
 				<a href="/services/physical.php" class="menuoption para-primaryLink">Physical Asset Management</a>
 				<a href="/services/web.php" class="menuoption para-primaryLink">Web-2-Production</a>
 				<a href="/services/direct.php" class="menuoption para-primaryLink">Direct Mail</a>
+                <a href="/services/x1-design-library.php" class="menuoption para-primaryLink">X1 Design Library</a>
 			</nav>
 			<nav class="menusuboptionset menusuboptionset-info">
 				<a href="/info/contacts.php" class="menuoption para-primaryLink">Contacts</a>
