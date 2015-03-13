@@ -16,11 +16,28 @@ module.exports = function(grunt) {
 
 					cwd: 'www.x1.ltd.uk/src/pages/',
 					src: '**/*.html',
-					dest: 'www.x1.ltd.uk/temp/pages',
+					dest: 'www.x1.ltd.uk/temp/pages/compiled',
 					ext: '.html',
 				}],
 			},
 
+		},
+
+
+
+		//	Change root URLs to be relative URLs
+		relativeRoot: {
+			yourTarget: {
+				options: {
+					root: 'www.x1.ltd.uk/temp/pages/compiled'
+				},
+				files: [{
+					expand: true,
+					cwd:  'www.x1.ltd.uk/temp/pages/compiled',
+					src: [ '**/*.html' ],
+					dest: 'www.x1.ltd.uk/temp/pages/relativeRoot'
+				}],
+			},
 		},
 
 
@@ -38,27 +55,10 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 
-					cwd: 'www.x1.ltd.uk/temp/pages/',
+					cwd: 'www.x1.ltd.uk/temp/pages/relativeRoot',
 					src: '**/*.html',
-					dest: 'www.x1.ltd.uk/temp/pagesMin',
+					dest: 'www.x1.ltd.uk/build',
 					ext: '.html',
-				}],
-			},
-		},
-
-
-
-		//	Change root URLs to be relative URLs
-		relativeRoot: {
-			yourTarget: {
-				options: {
-					root: 'www.x1.ltd.uk/temp/pagesMin'
-				},
-				files: [{
-					expand: true,
-					cwd:  'www.x1.ltd.uk/temp/pagesMin',
-					src: [ '**/*.html' ],
-					dest: 'www.x1.ltd.uk/build'
 				}],
 			},
 		},
@@ -140,7 +140,7 @@ module.exports = function(grunt) {
 						expand: true,
 						cwd: 'www.x1.ltd.uk/src/pages/pdfs/',
 						src: ['**/*.*'],
-						dest: 'www.x1.ltd.uk/build/pages/pdfs',
+						dest: 'www.x1.ltd.uk/build/pdfs',
 					},
 				],
 			},
@@ -190,7 +190,7 @@ module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 
 	grunt.registerTask( 'default', [
-			'processhtml', 'htmlmin', 'relativeRoot',
+			'processhtml', 'relativeRoot', 'htmlmin',
 			'sass', 'autoprefixer',
 			'copy', 'newer:imagemin',
 			'watch'
