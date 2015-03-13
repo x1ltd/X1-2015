@@ -103,8 +103,8 @@ module.exports = function(grunt) {
 
 					cwd: 'www.x1.ltd.uk/src/styles/',
 					src: '**/*.scss',
-					dest: 'www.x1.ltd.uk/temp/styles',
-					ext: '.css',
+					dest: 'www.x1.ltd.uk/temp/styles/compiled',
+					ext: '.min.css',
 				}],
 			},
 		},
@@ -121,10 +121,10 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 
-					cwd: 'www.x1.ltd.uk/temp/styles/',
+					cwd: 'www.x1.ltd.uk/temp/styles/compiled',
 					src: '**/*.css',
 					dest: 'www.x1.ltd.uk/build/css',
-					ext: '.css',
+					ext: '.min.css',
 				}],
 			},
 		},
@@ -169,17 +169,17 @@ module.exports = function(grunt) {
 
 			docsAndScripts: {
 				files: [ 'www.x1.ltd.uk/src/**/*.html' ],
-				tasks: [ 'processhtml', 'htmlmin', 'relativeRoot' ]
+				tasks: [ 'processhtml', 'relativeRoot', 'htmlmin', ]
 			},
 
 			styles: {
 				files: [ 'www.x1.ltd.uk/src/**/*.scss' ],
-				tasks: [ 'sass', 'autoprefixer' ]
+				tasks: [ 'sass', 'autoprefixer', ]
 			},
 
 			images: {
 				files: [ 'www.x1.ltd.uk/src/images/**/*.*' ],
-				tasks: [ 'newer:imagemin' ]
+				tasks: [ 'newer:imagemin', ]
 			},
 		},
 
