@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 			'watch'
 		]);
 
-	addTask( 'refresh', ['clean'], 'default' );
+	//addTask( 'refresh', ['clean'], 'default' );
 
 
 
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
 
 					cwd: 'www.x1.ltd.uk/temp/pages/relativeRoot',
 					src: '**/*.html',
-					dest: 'www.x1.ltd.uk/build',
+					dest: 'www.x1.ltd.uk',
 					ext: '.html',
 				}],
 			},
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: 'www.x1.ltd.uk/src/images/',
 					src: ['**/*.{png,jpg,gif}'],
-					dest: 'www.x1.ltd.uk/build/images'
+					dest: 'www.x1.ltd.uk/images'
 				}],
 			},
 		},
@@ -141,7 +141,7 @@ module.exports = function(grunt) {
 
 					cwd: 'www.x1.ltd.uk/temp/styles/compiled',
 					src: '**/*.css',
-					dest: 'www.x1.ltd.uk/build/css',
+					dest: 'www.x1.ltd.uk/css',
 					ext: '.min.css',
 				}],
 			},
@@ -165,7 +165,7 @@ module.exports = function(grunt) {
 						expand: true,
 						cwd: 'www.x1.ltd.uk/src/dump/',
 						src: ['**/*.*'],
-						dest: 'www.x1.ltd.uk/build/',
+						dest: 'www.x1.ltd.uk/',
 					},
 				],
 			},
@@ -177,7 +177,7 @@ module.exports = function(grunt) {
 						expand: true,
 						cwd: 'www.x1.ltd.uk/src/images/',
 						src: ['**/*.svg'],
-						dest: 'www.x1.ltd.uk/build/images',
+						dest: 'www.x1.ltd.uk/images',
 					},
 				],
 			},

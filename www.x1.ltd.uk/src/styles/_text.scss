@@ -108,7 +108,7 @@
 		font-weight: 800;
 		font-size: 30px;
 		text-align: left;
-		color: #b7162c;
+		color: $clr-darkred;
 		line-height: 1.4;
 		margin-top: 20px;
 	}
@@ -261,10 +261,10 @@
 /*	Content */
 
 .article a {
-	transition: color .2s;
+	color: $clr-darkred;
 }
 .article a:hover {
-	color: #b7162c;
+	text-decoration: underline;
 }
 
 
