@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 			'watch'
 		]);
 
-	addTask( 'clear', ['clean'], 'default' );
+	addTask( 'refresh', ['clean'], 'default' );
 
 
 
