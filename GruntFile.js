@@ -1,5 +1,23 @@
 module.exports = function(grunt) {
 
+	var __tasks = {};
+
+
+
+	addTask( 'default', [
+			'copy',
+			'processhtml', 'relativeRoot', 'htmlmin',
+			'sass', 'autoprefixer',
+			'newer:imagemin',
+			'watch'
+		]);
+
+	addTask( 'clear', ['clean'], 'default' );
+
+
+
+
+
 	grunt.initConfig({
 
 		//	HTML Templating
@@ -131,16 +149,23 @@ module.exports = function(grunt) {
 
 
 
+		//	Start fresh
+		clean: {
+			dump: [ "www.x1.ltd.uk/temp/", "www.x1.ltd.uk/build/", ],
+		},
+
+
+
 		//	Copy files that aren't processed
 		copy: {
-			pdfs: {
+			dump: {
 				files: [
 					// includes files within path
 					{
 						expand: true,
-						cwd: 'www.x1.ltd.uk/src/pages/pdfs/',
+						cwd: 'www.x1.ltd.uk/src/dump/',
 						src: ['**/*.*'],
-						dest: 'www.x1.ltd.uk/build/pdfs',
+						dest: 'www.x1.ltd.uk/build/',
 					},
 				],
 			},
@@ -181,6 +206,11 @@ module.exports = function(grunt) {
 				files: [ 'www.x1.ltd.uk/src/images/**/*.*' ],
 				tasks: [ 'newer:imagemin', ]
 			},
+
+			dump: {
+				files: [ 'www.x1.ltd.uk/src/dump/**/*.*' ],
+				tasks: [ 'copy:dump', ]
+			},
 		},
 
 	});
@@ -189,11 +219,45 @@ module.exports = function(grunt) {
 
 	require('load-grunt-tasks')(grunt);
 
-	grunt.registerTask( 'default', [
-			'processhtml', 'relativeRoot', 'htmlmin',
-			'sass', 'autoprefixer',
-			'copy', 'newer:imagemin',
-			'watch'
-		] );
+	registerTasks();
+
+
+
+
+
+
+
+	//	FUNCTIONS	//	FUNCTIONS	//
+
+	function addTask ( taskName, prependTasks, appendTasks ) {
+
+		var newTaskList = [];
+		var i = 1;
+
+		while ( !!arguments[i] ) {
+
+			if ( typeof arguments[i] === 'string' && __tasks[ arguments[i] ] ) {
+				newTaskList = newTaskList.concat( __tasks[ arguments[i] ] );
+			} else {
+				newTaskList = newTaskList.concat( arguments[i] );
+			}
+
+			i+=1;
+
+		}
+
+		__tasks[ taskName ] = newTaskList;
+
+	}
+
+
+
+	function registerTasks () {
+
+		for ( var i in __tasks ) {
+			grunt.registerTask( i, __tasks[i] );
+		}
+
+	}
 
 };
