@@ -1,0 +1,41 @@
+{
+  "name": "x1-2015",
+  "version": "1.0.0",
+  "description": "X1 ltd's website of 2015",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x1ltd/X1-2015.git"
+  },
+  "keywords": [
+    "x1",
+    "ltd",
+    "x1ltd",
+    "2015",
+    "printers",
+    "slough"
+  ],
+  "author": "Brett Jordan",
+  "license": "Apache License 2.0 (Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/x1ltd/X1-2015/issues"
+  },
+  "homepage": "https://github.com/x1ltd/X1-2015",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-htmlmin": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.9.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-newer": "^1.1.0",
+    "grunt-processhtml": "^0.3.7",
+    "grunt-relative-root": "^0.2.2",
+    "grunt-sass": "^0.18.1",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}
