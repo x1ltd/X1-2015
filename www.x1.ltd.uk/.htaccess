@@ -1,0 +1,12 @@
+# Allow redirects
+RewriteEngine On
+
+# Redirects start from the root
+RewriteBase /
+
+# Redirect 'index.htm' and 'index.html' files to the root folder
+RewriteRule ^index\.html?$ / [NC,R,L]
+
+# Redirect 'www' requests to not include the 'www'
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
