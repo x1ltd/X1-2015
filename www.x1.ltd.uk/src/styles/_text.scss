@@ -242,7 +242,7 @@
 	}
 
 	&-contactNameB {
-		font-family: 'Arapey', sans-serif;
+		font-family: 'Arapey', serif;
 		font-weight: 400;
 		font-style: italic;
 		font-size: 18px;
@@ -251,6 +251,17 @@
 		color: #777777;
 		line-height: 1.6;
 		margin-top: 0;
+	}
+	
+	&-QuoteCred {
+		font-family: 'Arapey', serif;
+		font-weight: 400;
+		font-size: 18px;
+		letter-spacing: .5px;
+		text-align: left;
+		color: #777777;
+		line-height: 2.6;
+		margin-top: 2;
 	}
 }
 
