@@ -134,6 +134,7 @@
 		line-height: 1.4;
 		margin-top: 30px;
 		margin-bottom: -5px
+		
 	}
 
 
@@ -211,6 +212,19 @@
 		font-size: 18px;
 		text-align: left;
 		color: #373737;
+		line-height: 1.4;
+		margin-top: 20px;
+		margin-bottom: -14px;
+	}
+
+
+      &-bodyD {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 20px;
+		text-align: left;
+		color: $clr-darkred;
 		line-height: 1.4;
 		margin-top: 20px;
 		margin-bottom: -14px;
