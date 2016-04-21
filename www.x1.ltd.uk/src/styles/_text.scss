@@ -196,6 +196,18 @@
 		line-height: 1.4;
 		margin-top: 20px;
 	}
+	
+	
+	&-bodyAsmaller {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		font-size: 15px;
+		text-align: left;
+		color: #626262;
+		line-height: 1.4;
+		margin-top: 20px;
+	}
 
 	&-bodyAB {
 		font-family: 'Open Sans', sans-serif;
@@ -323,6 +335,18 @@
 		text-align: left;
 		color: #777777;
 		line-height: 1.6;
+		margin-top: 0;
+	}
+	
+	&-bodyitalic {
+		font-family: 'Arapey', serif;
+		font-weight: 400;
+		font-style: italic;
+		font-size: 19px;
+		letter-spacing: .5px;
+		text-align: left;
+		color: #777777;
+		line-height: 1.4;
 		margin-top: 0;
 	}
 	
