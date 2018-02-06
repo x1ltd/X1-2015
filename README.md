@@ -13,7 +13,9 @@ brew upgrade
 brew install node git
 
 # Clone the package from github
-cd /path/to/the/directory # choose where this is. You can type "cd " (note the space) then drag the directory into the console
+#   Choose where the files go. You can type "cd " (note the space) then drag the directory into the console
+#   Note that when you drag a folder in, you will see its path appear in the terminal
+cd /path/to/the/directory
 git clone git@github.com:x1ltd/X1-2015.git
 
 # Go into this new directory
