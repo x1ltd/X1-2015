@@ -1,3 +1,5 @@
+const sass = require('node-sass');
+
 module.exports = function(grunt) {
 
 	var __tasks = {};
@@ -113,6 +115,7 @@ module.exports = function(grunt) {
 				sourceMap: true,
 				//sourceMapEmbed: 'false',
 				//sourceMapContents: 'false',
+				implementation: sass
 			},
 
 			dist: {
