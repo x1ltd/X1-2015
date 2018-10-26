@@ -381,7 +381,7 @@ a, button {
 /* images */
 .img-hero {
   display: block;
-  width: 95%;
+  width: 100%;
   height: auto;
   border-radius: 5px;
   margin-top: 20px; }
