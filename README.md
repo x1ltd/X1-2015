@@ -46,7 +46,7 @@ git clone git@github.com:x1ltd/X1-2015.git
 ```
 
 ### Install the required dependencies
-Go into the directory that git just created:
+Go into, or `c`hange `d`irectory to, the directory that git just created:
 ```shell
 cd ./X1-2015
 ```
