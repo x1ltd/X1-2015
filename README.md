@@ -40,9 +40,9 @@ Now on https://github.com/x1ltd/X1-2015 find the repo's clone URL (this should l
 ```shell
 git clone [CLONE_URL]
 ```
-So it should look something like:
+That is, something like:
 ```shell
-git@github.com:x1ltd/X1-2015.git
+git clone git@github.com:x1ltd/X1-2015.git
 ```
 
 ### Install the required dependencies
