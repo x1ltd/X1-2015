@@ -36,7 +36,7 @@ You can type "`cd `" (note the space) then drag the directory into the console.
 Note that when you drag a folder in, you will see its path appear in the terminal
 If the text looks something like `cd /path/to/the/directory`, then hit enter
 
-Now on https://github.com/x1ltd/X1-2015 find the repo's clone URL (this should look something like git@github.com:x1ltd/X1-2015.git) and type this into the terminal then hit enter:
+Now on https://github.com/x1ltd/X1-2015 find the repo's clone URL (this should look something like `git@github.com:x1ltd/X1-2015.git`) and type this into the terminal then hit enter:
 ```shell
 git clone [CLONE_URL]
 ```
